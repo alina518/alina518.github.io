@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import { 
   Github, 
   Linkedin, 
-  Mail, 
   Menu, 
   X, 
   ChevronRight,
@@ -160,7 +159,7 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      {/* Infinite Marquee Highlights (Replaces horizontal scrollbar) */}
+      {/* Infinite Marquee Highlights */}
       <div className="py-12 glass border-y border-white/20 overflow-hidden marquee-container">
         <div className="animate-marquee whitespace-nowrap flex gap-16 items-center">
           {[...highlights, ...highlights].map((item, i) => (
@@ -218,7 +217,7 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      {/* Expertise Section - REDESIGNED WITHOUT PROGRESS BARS */}
+      {/* Expertise Section */}
       <section id="skills" className="py-32 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="mb-24 text-center">
