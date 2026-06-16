@@ -10,6 +10,9 @@ import {
   Bot,
   Music,
   MonitorPlay,
+  Gamepad2,
+  Home,
+  Cloud,
   ExternalLink,
   Sparkles,
   Code,
@@ -47,6 +50,9 @@ const App: React.FC = () => {
       case 'Bot': return <Bot size={40} strokeWidth={1.5} />;
       case 'Music': return <Music size={40} strokeWidth={1.5} />;
       case 'MonitorPlay': return <MonitorPlay size={40} strokeWidth={1.5} />;
+      case 'Gamepad2': return <Gamepad2 size={40} strokeWidth={1.5} />;
+      case 'Home': return <Home size={40} strokeWidth={1.5} />;
+      case 'Cloud': return <Cloud size={40} strokeWidth={1.5} />;
       default: return null;
     }
   };
