@@ -29,6 +29,27 @@ export const PROJECTS: Project[] = [
     description: 'Built a low-latency media streaming server optimized for Raspberry Pi hardware. Fine-tuned packet buffering and network protocols to achieve seamless 1080p playback, earning recognition as a Top 100 Global Project.',
     tech: ['Raspberry Pi', 'Python', 'Media Streaming'],
     icon: 'MonitorPlay'
+  },
+  {
+    id: '5',
+    title: 'Alien Invasion Game',
+    description: 'Developed a fully playable 2D arcade shooter in Python using Pygame, featuring progressive difficulty scaling, collision detection, and sprite animation. Engineered a clean game loop architecture with score tracking and dynamic enemy wave generation.',
+    tech: ['Python', 'Pygame', 'OOP', 'Game Dev'],
+    icon: 'Gamepad2'
+  },
+  {
+    id: '6',
+    title: 'Automated Rental Discovery System',
+    description: 'Built an end-to-end web scraping and aggregation pipeline to automate rental property discovery. The system extracts, filters, and ranks listings based on user-defined criteria, eliminating hours of manual browsing with structured data output.',
+    tech: ['Python', 'Web Scraping', 'Automation', 'Data Processing'],
+    icon: 'Home'
+  },
+  {
+    id: '7',
+    title: 'Weather App',
+    description: 'Created a real-time weather application that fetches live meteorological data via REST APIs and presents it through a clean, responsive interface. Features include location-based lookup, temperature unit conversion, and dynamic weather condition icons.',
+    tech: ['Python', 'REST API', 'JSON', 'UI Design'],
+    icon: 'Cloud'
   }
 ];
 
